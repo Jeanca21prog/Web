@@ -3,5 +3,18 @@ h1 {
     background: -webkit-linear-gradient(#e21313, #333);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-align: center;
 }
-img {width: 200px;}
+img {width: 200px;
+margin: 20px;
+}
+
+button {
+    background-color: #1bd81b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
