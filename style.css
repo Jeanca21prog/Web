@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 h1 {
     font-size: 40px;
     background: -webkit-linear-gradient(#29e9f7, hsl(96, 58%, 57%));
@@ -9,7 +15,7 @@ img {width: 200px;
 margin: 20px;
 }
 
-
+#Temu { background-color: red;}
 
 button {
     background-color: #1bd81b;
@@ -19,4 +25,14 @@ button {
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #1bd81b;
+    margin: 30px;
+    color: aliceblue;
+    padding: 30px;
+    border: rebeccapurple;
+    font-size: 20px;
 }
